@@ -1,5 +1,40 @@
 html{
-    background-image: url('../image/background1.jpg'); /*设置背景图像 */
-    background-attachment: fixed; /*背景图像固定 */
-    background-size: cover /*背景大小覆盖*/
+    background-image: url('../image/background1.jpg');   /*设置背景图像 */
+    background-attachment: fixed;   /*背景图像固定 */
+    background-size: cover;   /*背景大小覆盖*/
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0
+}
+
+h2{
+    font-family: fantasy
+}
+
+.header{   /*头部区域*/
+    height: 48px;
+    width: 1560px;
+    margin: 0;
+    padding: 50px 60px 20px
+}
+
+.main{   /*主要页面*/
+    float: left;
+    margin: 0;
+    padding: 0 0 120px 260px;
+    height: 630px;
+    width: 880px
+}
+
+.menu{   /*右侧菜单*/
+    float: left;
+    margin: 0;
+    padding: 0 100px 120px 0;
+    height: 630px;
+    width: 440px;
 }
