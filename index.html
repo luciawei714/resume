@@ -5,10 +5,34 @@
 		<title>Fandi Wei's Resume</title>
 		<link rel="stylesheet" href="./css/style.css" type="text/css">
 		<link rel="stylesheet" href="./css/font.css" type="text/css">
+		<link rel="stylesheet" href="./css/htmleaf-demo.css" type="text/css">
+		
 	</head>
 	<body>
 		<h2 class="header">Fandi Wei (Lucia)</h2>
 		<div class="main"></div>
-		<!-- <div class="menu"></div> -->
+		<div class="menu">
+			<div id="wrapper">
+				<div id="toolbar">
+					  <div class="button"></div>
+					  <ul class="icons">
+							<li><i class="fa fa-home fa-2x" aria-hidden="true"></i></li>
+							<li><i class="fa fa-user fa-2x" aria-hidden="true"></i></li>
+							<li><i class="fa fa-star fa-2x" aria-hidden="true"></i></li>
+							<li><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></li>
+							<li><i class="fa fa-paper-plane-o fa-2x" aria-hidden="true"></i></li>
+					  </ul>
+					</div>
+			  </div>
+		</div>
+
+
+		<script src="./js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript">
+			$( ".button" ).click(function() {
+            $(this).toggleClass( "active" );
+            $(".icons").toggleClass( "open" );
+			});
+		</script>
 	</body>
 </html>

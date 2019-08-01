@@ -29,6 +29,7 @@ h2{
     padding: 0;
     height: 630px;
     width: 960px;
+    border-radius: 25px;
     background-color:rgba(255,255,255,0.2);
 	-webkit-box-shadow:
 		rgba(26,26,67,0.05) 1px 1px 5px 0px,
@@ -44,10 +45,76 @@ h2{
 		rgba(0,0,0,0.3) 23.4px 37.5px 75px -37.5px;
 }
 
-.menu{   /*右侧菜单*/
+.menu{   /*底侧菜单*/
     float: left;
-    margin: 0;
-    padding: 0 100px 120px 0;
-    height: 630px;
-    width: 440px;
+    margin: 0 360px 0;
+    padding: 0 s;
+    height: 143px;
+    width: 960px;
 }
+
+#wrapper {   /*控制内容位置*/
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    text-transform:uppercase;
+  }
+  #toolbar {   /*菜单范围*/
+    width:100%;
+    max-width:670px;
+    min-width:550px;
+    margin: 30px auto;
+  }
+  .button {   /*加号展开按钮设置*/
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color:#FFE154;
+    color:#ffffff;
+    text-align:center;
+    font-size:3.5em;
+    position:relative;
+    left:50%;
+    margin-left:-35px;
+    z-index:1;
+  }
+  .button,.icons{   /*旋转并展开过程，贝塞尔曲线控制速度变化*/
+    -webkit-transition: -webkit-all 1s cubic-bezier(.87,-.41,.19,1.44);
+            transition:  all 1s cubic-bezier(.87,-.41,.19,1.44);
+  }
+  .button:after {   /*加号*/
+    content:"+";
+  }
+  .button.active {   /*展开加号并旋转*/
+  -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+    left:60px;
+  }
+  .icons {   /*被隐藏在加号后的菜单*/
+    width:0%;
+    overflow:hidden;
+    height:36px;
+    list-style:none;
+    padding:16px 10px 10px 50px;
+    background-color:rgba(255,255,255,0.2);;
+    box-shadow: 1px 1px 1px 1px #DCDCDC;
+    margin:-68px 0 0 45%;
+    border-radius: 2em;
+  }
+   
+  .icons.open {   /*展开后*/
+    width:80%;
+    margin:-68px 0 0 5%;
+    overflow:hidden;   /*隐藏溢出*/
+  }
+   
+  /* .icons li {
+    display: none;
+    width:10%;
+    color:#3AB09E;
+  } */
+   
+  /* .icons.open li {
+    width:16%;
+    display: inline-block;
+  }                   */
+  
