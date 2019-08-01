@@ -107,14 +107,14 @@ h2{
     overflow:hidden;   /*隐藏溢出*/
   }
    
-  /* .icons li {
+  .icons li {
     display: none;
     width:10%;
-    color:#3AB09E;
-  } */
+    color:#FFE154;
+  } 
    
-  /* .icons.open li {
+  .icons.open li {
     width:16%;
     display: inline-block;
-  }                   */
+  }                  
   
