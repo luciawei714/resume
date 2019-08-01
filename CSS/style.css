@@ -1,5 +1,5 @@
 html{
-    background-image: url('../image/background1.jpg');   /*设置背景图像 */
+    background-image: url('../image/background_2.1.jpg');   /*设置背景图像 */
     background-attachment: fixed;   /*背景图像固定 */
     background-size: cover;   /*背景大小覆盖*/
     height: 100%;
@@ -17,18 +17,31 @@ h2{
 }
 
 .header{   /*头部区域*/
-    height: 48px;
+    height: 45px;
     width: 1560px;
     margin: 0;
-    padding: 50px 60px 20px
+    padding: 50px 60px 0
 }
 
 .main{   /*主要页面*/
     float: left;
-    margin: 0;
-    padding: 0 0 120px 260px;
+    margin: 0 360px 0;
+    padding: 0;
     height: 630px;
-    width: 880px
+    width: 960px;
+    background-color:rgba(255,255,255,0.2);
+	-webkit-box-shadow:
+		rgba(26,26,67,0.05) 1px 1px 5px 0px,
+		rgba(50,50,93,0.5) 39px 62.5px 125px -25px,
+		rgba(0,0,0,0.3) 23.4px 37.5px 75px -37.5px;
+	-moz-box-shadow:
+		rgba(26,26,67,0.05) 1px 1px 5px 0px,
+		rgba(50, 50, 93, 0.5) 39px 62.5px 125px -25px,
+		rgba(0,0,0,0.3) 23.4px 37.5px 75px -37.5px;
+	box-shadow:
+		rgba(26,26,67,0.05) 1px 1px 5px 0px,
+		rgba(50,50,93,0.5) 39px 62.5px 125px -25px,
+		rgba(0,0,0,0.3) 23.4px 37.5px 75px -37.5px;
 }
 
 .menu{   /*右侧菜单*/
