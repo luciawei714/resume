@@ -1,3 +1,20 @@
+h1{
+    color: #433f73;
+    font-family: Chalkboard;
+}
+
 h2{
-    color: bisque
+    color: #433f73;
+    font-family: STKaiti
+}
+
+h3{
+    color: #433f73;
+    font-family: Chalkboard;
+}
+
+p{
+    color: #433f73;
+    font-family: Chalkboard;
+    font-size: 20px;
 }

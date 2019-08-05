@@ -10,18 +10,28 @@
 		
 	</head>
 	<body>
-		<h2 class="header">Fandi Wei (Lucia)</h2>
-		<div class="main"></div>
+		<div class="header"></div>
+		<div class="main main-current">
+			<img class="photo" src="image/793663366.png" alt>
+			<div class=home>
+				<h1 class=home-name>Fandi Wei (Lucia)</h1>
+				<h3 class="home-title">Front-end Developer</h3>
+				<p>Proactive student with superior skills in Accounting and IT. Eager to bring value to industry establishment through hard work and commitment to quality.</p>
+				<p>Easy-going and congenial, with a strong sense of responsibility and good team-spirit.</p>
+				<p>Fluent in oral English, with fairly good of reading and writing ability; Speaking authentic Mandarin-Chinese.</p>
+			</div>
+		</div>
+
 		<div class="menu">
 			<div id="wrapper">
 				<div id="toolbar">
 					  <div class="button"></div>
 					  <ul class="icons">
-							<li><i class="fa fa-home fa-2x" aria-hidden="true"></i></li>
-							<li><i class="fa fa-user fa-2x" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star fa-2x" aria-hidden="true"></i></li>
-							<li><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></li>
-							<li><i class="fa fa-paper-plane-o fa-2x" aria-hidden="true"></i></li>
+							<li><i class="fa fa-home fa-2x" title="Home" aria-hidden="true"></i></li>
+							<li><i class="fa fa-file-text-o fa-2x" title="Education" aria-hidden="true"></i></li>
+							<li><i class="fa fa-user fa-2x" title="Experience" aria-hidden="true"></i></li>
+							<!-- <li><i class="fa fa-star fa-2x" aria-hidden="true"></i></li> -->
+							<li><i class="fa fa-paper-plane-o fa-2x" title="Contact" aria-hidden="true"></i></li>
 					  </ul>
 					</div>
 			  </div>
@@ -30,11 +40,6 @@
 
 		<script src="./js/jquery-1.11.0.min.js"></script>
 		<script src="js/jquery.min.js"></script>
-		<script type="text/javascript">
-			$( ".button" ).click(function() {
-            $(this).toggleClass( "active" );
-            $(".icons").toggleClass( "open" );
-			});
-		</script>
+		<script src="./js/menu.js"></script>
 	</body>
 </html>
