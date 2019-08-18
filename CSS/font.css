@@ -5,10 +5,15 @@ h1{
 
 h2{
     color: #433f73;
-    font-family: STKaiti
+    font-family: Chalkboard;
 }
 
 h3{
+    color: #433f73;
+    font-family: Chalkboard;
+}
+
+h4{
     color: #433f73;
     font-family: Chalkboard;
 }
@@ -17,4 +22,8 @@ p{
     color: #433f73;
     font-family: Chalkboard;
     font-size: 20px;
+}
+
+.center{
+    text-align: center;
 }

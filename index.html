@@ -5,41 +5,86 @@
 		<title>Fandi Wei's Resume</title>
 		<link rel="stylesheet" href="./css/style.css" type="text/css">
 		<link rel="stylesheet" href="./css/font.css" type="text/css">
-		<link rel="stylesheet" href="./css/htmleaf-demo.css" type="text/css">
 		<link rel="stylesheet" href="./css/font-awesome.min.css" type="text/css">
-		
+
 	</head>
-	<body>
-		<div class="header"></div>
-		<div class="main main-current">
-			<img class="photo" src="image/793663366.png" alt>
-			<div class=home>
-				<h1 class=home-name>Fandi Wei (Lucia)</h1>
-				<h3 class="home-title">Front-end Developer</h3>
-				<p>Proactive student with superior skills in Accounting and IT. Eager to bring value to industry establishment through hard work and commitment to quality.</p>
-				<p>Easy-going and congenial, with a strong sense of responsibility and good team-spirit.</p>
-				<p>Fluent in oral English, with fairly good of reading and writing ability; Speaking authentic Mandarin-Chinese.</p>
+
+
+	<body class="material-template">
+		<div id="page" class="page">
+			<div class="header"></div>
+			<div class="main main-current site-main" id="main">
+				<div class="pt-wrapper">
+					<div id="content">
+						<div id="Home" class="item show">
+							<img class="photo" src="image/793663366.png" alt>
+							<div class="intro">
+								<h1 class="intro-name">Fandi Wei (Lucia)</h1>
+								<h3 class="intro-title">Front-end Developer</h3>
+								<p>&nbsp &nbsp Proactive student with superior skills in Accounting and IT. Eager to bring value to industry establishment through hard work and commitment to quality.</p>
+								<p>&nbsp &nbsp Easy-going and congenial, with a strong sense of responsibility and good team-spirit.</p>
+								<p>&nbsp &nbsp Fluent in oral English, with fairly good of reading and writing ability; Speaking authentic Mandarin-Chinese.</p>
+							</div>
+						</div>
+
+						<div id="Education" class="item">
+							<h2 class="center">RMIT UNIVERSITY</h2>
+							<h3 class="center">MASTER OF IT</h3>
+							<p class="center">2017-2019   MELBOURNE VIC</p>
+							<br>
+							<h2 class="center">LA TROBE UNIVERSITY</h2>
+							<h3 class="center">BACHELOR OF ACCOUNTING</h3>
+							<p class="center">2015-2017   BUNDOORA VIC</p>
+							<br>
+							<h2 class="center">DALIAN JIAOTONG UNIVERSITY</h2>
+							<h3 class="center">BACHELOR OF ACCOUNTING</h3>
+							<p class="center">2011-2014   DALIAN LIAONING CHINA</p>
+						</div>
+
+						<div id="Experience" class="item">
+							
+						</div>
+
+						<div id="Contact" class="item">
+							<br>
+							<br>
+							<h2 class="center">Email: luciawei714@gmail.com</h2>
+							<h2 class="center">Wechat: 279126931</h2>
+							<br>
+							<div id="map">
+
+							</div>
+						</div>
+
+
+					</div>
+				</div>
 			</div>
 		</div>
+
+			
+
 
 		<div class="menu">
 			<div id="wrapper">
 				<div id="toolbar">
-					  <div class="button"></div>
-					  <ul class="icons">
-							<li><i class="fa fa-home fa-2x" title="Home" aria-hidden="true"></i></li>
-							<li><i class="fa fa-file-text-o fa-2x" title="Education" aria-hidden="true"></i></li>
-							<li><i class="fa fa-user fa-2x" title="Experience" aria-hidden="true"></i></li>
-							<!-- <li><i class="fa fa-star fa-2x" aria-hidden="true"></i></li> -->
-							<li><i class="fa fa-paper-plane-o fa-2x" title="Contact" aria-hidden="true"></i></li>
-					  </ul>
-					</div>
-			  </div>
+					<div class="button"></div>
+					<ul class="icons" id="tabs">
+						<li class="current"><a class="fa fa-home fa-2x pt-trigger" href="#" title="Home" aria-hidden="true"></a></li>
+						<li><a class="fa fa-file-text-o fa-2x" href="#" title="Education" aria-hidden="true"></a></li>
+						<li><a class="fa fa-user fa-2x" href="#experience" title="Experience" aria-hidden="true"></a></li>
+						<li><a class="fa fa-paper-plane-o fa-2x" href="#contact" title="Contact" aria-hidden="true"></a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 
 
-		<script src="./js/jquery-1.11.0.min.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSgxA22YQhdu0HjnjSaXa67Cuk_-hLeO0&callback=initMap" type="text/javascript"></script>
+		<script src="js/map.js"></script>
+		<script src="js/jquery-1.11.0.min.js"></script>
 		<script src="js/jquery.min.js"></script>
-		<script src="./js/menu.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/switch.js"></script>
 	</body>
 </html>
